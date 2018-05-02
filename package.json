@@ -1,0 +1,30 @@
+{
+    "name": "barkwire-list-dogs",
+    "version": "0.0.1",
+    "description": "Barkwire drills",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "npx cypress run --config videoRecording=false,screenshotOnHeadlessFailure=false",
+        "migrate": "knex migrate:latest --env development",
+        "seed": "knex seed:run --env development"
+    },
+    "keywords": [
+        "galvanize"
+    ],
+    "author": "Kyle Coberly",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "express": "^4.16.2",
+        "hbs": "^4.0.1",
+        "knex": "^0.14.2",
+        "node-sass-middleware": "^0.11.0",
+        "sqlite3": "^3.1.13"
+    },
+    "devDependencies": {
+        "cypress": "^1.1.2",
+        "nodemon": "^1.12.1"
+    }
+}
