@@ -25,4 +25,4 @@ You need to:
 * `npm test` to see the failing tests. For this exercise, if you make the `Adding a dog` test pass, all of the others should pass as well.
 * Write enough code to make the tests pass.
 * You shouldn't need to change anything in `migrations`, `seeds`, `stylesheets`, `images`, `cypress`, or `data`. You also shouldn't to change any of the `/api` routes.
-* You're done when all of the tests pass. Both of you should submit a repo with the completed code. Enter your names [`HERE`] and [`HERE`]!
+* You're done when all of the tests pass. Both of you should submit a repo with the completed code. Enter your names [Landon Folkers] and [Sarah Bohr]!
